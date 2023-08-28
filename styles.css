@@ -1,3 +1,40 @@
-.header-links {
-    font-size: ;
+.main-area{
+    background-color: #1F2937;
+
+}
+
+.pebbles{
+    float: right;
+}
+
+.main-text{
+    font-family: hero;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF9
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    display: flex;
+    text-align: center;
+}
+
+.subtexts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grey-squares{
+    display: flex;
+    justify-content: center;
 }
