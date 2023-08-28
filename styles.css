@@ -1,10 +1,13 @@
-.main-area{
+/*.main-area{
     background-color: #1F2937;
-
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 .pebbles{
-    float: right;
+    width: 100px;
+    height: 100px;
 }
 
 .main-text{
@@ -15,6 +18,38 @@
 }
 
 .secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+} */
+
+.main-area {
+    background-color: #1F2937;
+    height: 1000px;
+    display: flex;
+    flex-direction: row; /* Change flex-direction to row */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Create space between text and image */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.pebbles {
+    width: 100px;
+    height: 100px;
+}
+
+.main-text {
+    font-family: hero;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF9;
+}
+
+.secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
